@@ -1,0 +1,67 @@
+body{
+    height: 100%;
+    /* The image used */
+    background-image: url("Image/Background2.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .wrapper{
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+  }
+
+  .content{
+    width: 100%;
+    min-height: 82.5vh;
+    transition: all 0.3s;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  legend{
+    border: none;
+  }
+
+  .main{
+    margin-top: 80px;
+    border:1px solid white;
+    color: white;
+    padding: 50px;
+  }
+
+  .main fieldset{
+    padding-bottom:5px;
+  }
+
+  .main fieldset h3{
+    font-family: "Forte";
+    margin-bottom:15px;
+    margin-left:25px;
+  }
+
+  .main fieldset img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .main fieldset input{
+    color: black;
+    margin: 5px;
+    
+  }
+
+
+
+
+
+
+ 
+  

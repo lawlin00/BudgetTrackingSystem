@@ -1,0 +1,241 @@
+body{
+    height: 100%;
+    /* The image used */
+    background-image: url("Image/Background4.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .wrapper{
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+
+  }
+
+  .navbar {
+    margin-bottom: 0 ;
+  }
+
+  .navbar-custom{
+    border-bottom:1px solid black;
+    border-radius: 0px;
+  }
+
+  .Logoimg{
+    height:75px;
+  }
+
+  #sidenav{
+    width: 250px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+    background: rgba(52,58,64,1);
+    color: white;
+    transition: all 0.3s;
+  }
+
+  #sidenav.active{
+    margin-left: -250px;
+  }
+
+  .sidebar-header{
+    padding: 5px;
+    color: white;
+    text-align: right;
+    position: relative;
+    margin-right: 10px;
+    margin-left: 5px;
+  }
+
+  @media (max-width: 760px){
+    #sidenav{
+      margin-left: -250px;
+    }
+
+    #sidebar.active{
+      margin-left: 0px;
+    }
+  }
+
+  .content{
+    width: 100%;
+    min-height: 80vh;
+    transition: all 0.3s;
+
+  }
+
+  .menuicon2{
+    font-size: 30px;
+    color: white;
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+  }
+
+  .searchicon{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    display: inline-block;
+    padding: 0px;
+  }
+
+  .plusicon{
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+  }
+
+  .plusicon:hover{
+    color: black;
+    background: white;
+  }
+
+  .active-cyan-2 input[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #4dd0e1;
+    box-shadow: 0 1px 0 0 #4dd0e1;
+  }
+  .active-cyan input[type=text] {
+    border-bottom: 1px solid #4dd0e1;
+    box-shadow: 0 1px 0 0 #4dd0e1;
+  }
+
+  #sidenav ul.components{
+    padding: 20px 0px;
+  }
+
+  #sidenav ul li a{
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    color: white;
+  }
+
+  #sidenav ul li a:hover{
+    color: #7386D5;
+    background: white;
+  }
+
+  #sidenav ul li.active > a{
+    color: #fff;
+    background:#7386D5 ;
+  }
+
+  #sidenav ul li.active > a[aria-expanded="true"]{
+    color: #fff;
+    background: rgba(52,58,64,1);
+  }
+
+  #sidenav ul ul a{
+    font-size: 0.9em;
+    padding-left:  30px;
+    background: rgba(52,58,64,1);
+  }
+
+  a[data-toggle="collapse"] {
+      position: relative;
+  }
+
+  .footer-custom{
+    background-color: #2E2E2E;
+
+  }
+
+  .thumbnail-custom{
+    background-color: #343a40;
+    border: 1px solid;
+    border-color: black;
+
+  }
+
+  .PlanImg-custom{
+    min-height: 230px;
+    max-height: 230px;
+  }
+
+  .container-header{
+    background: rgba(20,20,20,1);
+    border: 1px solid;
+    border-color: black;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+  }
+
+  .container-content{
+    background: rgba(58,58,58,1);
+    border: 1px solid;
+    border-color: black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px;
+    padding-top: 15px;
+    margin-bottom: 20px;
+  }
+
+  .pencil-icon{
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+  }
+
+  .Detailbtn-custom{
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+
+  }
+
+  .pencil-icon-FSD{
+    font-size: 12px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 2px;
+    border: 1px solid white;
+
+  }
+
+ .box{
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size:18px;
+    margin-bottom:10%;
+
+ }
+
+
+ .tablebg{
+     border:1px solid white;
+     color:white;
+     margin-top: 20px;
+ }
+
+ .tablebg th{
+  padding-left: 10px;
+}
+
+ .tablebg td{
+   padding: 10px;
+   color: #2E2E2E;
+ }
+
+
+.userform-custom{
+  background-color:  rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+}
