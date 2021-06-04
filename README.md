@@ -1,6 +1,7 @@
 # Budget Tracking System
 SDP Project - Diploma
 This is one of the projects I did with my friend during my Diploma study. 
+You may check "master" brach to view the file :D
 
 Money manager system is a web-based system which can evaluate the financial needs of an organization and develop budget strategies to maximize saving. This system can create several budget and expense tracking lists. This system can calculate the total expense or budget automatically according to the information that users recorded. Basically, the age range of the users for this system are between 16 years old and above. Users can add members to a specific list so that every member can track the budget and spending together. This system is also suitable for the company to control the financial matters so that the company can continue with considerable business.
 
