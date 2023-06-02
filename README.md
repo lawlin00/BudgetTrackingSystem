@@ -1,4 +1,6 @@
 # Budget Tracking System
+***The project code is in master branch***
+
 SDP Project - Diploma
 This is one of the projects I did with my friend during my Diploma study. 
 
